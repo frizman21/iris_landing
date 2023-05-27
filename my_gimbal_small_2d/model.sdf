@@ -160,7 +160,10 @@
         <update_rate>10</update_rate>
         <visualize>1</visualize>
         
-        <topic>camera</topic>
+        
+        	<topic>camera</topic>
+        
+        
         
       </sensor>
     </link>

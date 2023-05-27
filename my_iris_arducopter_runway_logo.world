@@ -4,11 +4,15 @@
     <plugin filename="libignition-gazebo-physics-system.so"
       name="ignition::gazebo::systems::Physics">
     </plugin>
+    
+
     <plugin
       filename="ignition-gazebo-sensors-system"
       name="ignition::gazebo::systems::Sensors">
       <render_engine>ogre</render_engine>
     </plugin>
+    
+    
     <plugin filename="libignition-gazebo-user-commands-system.so"
       name="ignition::gazebo::systems::UserCommands">
     </plugin>
@@ -22,7 +26,6 @@
     <scene>
       <ambient>1.0 1.0 1.0</ambient>
       <background>0.8 0.8 0.8</background>
-      <sky></sky>
     </scene>
 
     <light type="directional" name="sun">
@@ -42,7 +45,11 @@
     <include>
       <uri>model://runway</uri>
     </include>
-
+<!--
+    <include>
+      <uri>model://iris_with_standoffs</uri>
+    </include>
+-->
     <include>
       <uri>model://my_iris_with_camera</uri>
     </include>
