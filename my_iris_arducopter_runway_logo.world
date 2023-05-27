@@ -4,6 +4,11 @@
     <plugin filename="libignition-gazebo-physics-system.so"
       name="ignition::gazebo::systems::Physics">
     </plugin>
+    <plugin
+      filename="ignition-gazebo-sensors-system"
+      name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre</render_engine>
+    </plugin>
     <plugin filename="libignition-gazebo-user-commands-system.so"
       name="ignition::gazebo::systems::UserCommands">
     </plugin>

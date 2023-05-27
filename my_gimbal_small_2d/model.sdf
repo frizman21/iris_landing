@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <sdf version='1.6'>
-  <model name='gimbal_small_2d'>
+  <model name='my_gimbal_small_2d'>
     <pose>0 0 0.18 0 0 0</pose>
     <link name='base_link'>
       <inertial>
@@ -18,7 +18,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://gimbal_small_2d/meshes/base_main.dae</uri>
+            <uri>model://my_gimbal_small_2d/meshes/base_main.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -52,7 +52,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://gimbal_small_2d/meshes/base_arm.dae</uri>
+            <uri>model://my_gimbal_small_2d/meshes/base_arm.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -65,7 +65,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://gimbal_small_2d/meshes/base_arm.dae</uri>
+            <uri>model://my_gimbal_small_2d/meshes/base_arm.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -102,7 +102,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://gimbal_small_2d/meshes/tilt.dae</uri>
+            <uri>model://my_gimbal_small_2d/meshes/tilt.dae</uri>
           </mesh>
         </geometry>
         <material>
@@ -116,7 +116,7 @@
         <geometry>
           <mesh>
             <scale>0.001 0.001 0.001</scale>
-            <uri>model://gimbal_small_2d/meshes/tilt.dae</uri>
+            <uri>model://my_gimbal_small_2d/meshes/tilt.dae</uri>
           </mesh>
         </geometry>
       </collision>
@@ -159,6 +159,9 @@
         <always_on>1</always_on>
         <update_rate>10</update_rate>
         <visualize>1</visualize>
+        
+        <topic>camera</topic>
+        
       </sensor>
     </link>
     <joint name='tilt_joint' type='revolute'>
