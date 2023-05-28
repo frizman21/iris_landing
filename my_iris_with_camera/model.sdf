@@ -9,7 +9,7 @@
       <uri>model://my_gimbal_small_2d</uri>
      
       <name>gimbal</name>
-      <pose>0 -0.01 0.070 1.57 0 1.57</pose>    
+      <pose>0 -0.01 0.070 1.57 0 1.57</pose>
     </include>
   
     <pose>0 0 0.194923 0 0 0</pose>

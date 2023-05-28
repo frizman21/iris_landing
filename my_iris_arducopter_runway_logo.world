@@ -86,5 +86,35 @@
     </link>
   </model>
 
+  <model name="aruco_box">
+    <static>true</static>
+    <link name="link">
+      <visual name="qrcode1">
+      <pose>2 0 .1 0 0 -1.57079632679</pose>
+        <cast_shadows>false</cast_shadows>    
+        <geometry>
+          <plane>
+            <normal>0 0 1</normal>
+            <size> 1.2192 1.2192</size>
+          </plane>
+        </geometry>
+      
+        <material>
+          <render_order>10</render_order>
+          <ambient>0.8 0.8 0.8 1</ambient>
+          <diffuse>0.8 0.8 0.8 1</diffuse>
+          <specular>0.1 0.1 0.1 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://aruco_marker/materials/textures/aruco_72.png</albedo_map>
+              <roughness>0.6</roughness>
+              <metalness>0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+    </link>
+  </model>
+
   </world>
 </sdf>
