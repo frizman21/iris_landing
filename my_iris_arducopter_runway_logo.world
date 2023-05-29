@@ -60,7 +60,7 @@
     <static>true</static>
     <link name="link">
       <visual name="qrcode1">
-      <pose>0 2 .08 0 0 -1.57079632679</pose>
+      <pose>0 2 .1 0 0 -1.57079632679</pose>
         <cast_shadows>false</cast_shadows>    
         <geometry>
           <plane>
@@ -90,7 +90,7 @@
     <static>true</static>
     <link name="link">
       <visual name="qrcode1">
-      <pose>2 0 .08 0 0 -1.57079632679</pose>
+      <pose>2 0 .1 0 0 -1.57079632679</pose>
         <cast_shadows>false</cast_shadows>    
         <geometry>
           <plane>
