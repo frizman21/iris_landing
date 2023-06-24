@@ -56,6 +56,13 @@
       <uri>model://iris_with_ardupilot</uri>
     </include>
 
+<!--
+    <include>
+      <pose>-2 -2 1 0 0 0</pose>
+      <uri>model://Gazebo_Rover</uri>
+    </include>
+-->
+
   <model name="box">
     <static>true</static>
     <link name="link">
